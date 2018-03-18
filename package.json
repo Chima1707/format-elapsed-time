@@ -1,0 +1,32 @@
+{
+  "name": "format-elapsed-time",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chima1707/format-elapsed-time.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chima1707/format-elapsed-time/issues"
+  },
+  "homepage": "https://github.com/Chima1707/format-elapsed-time#readme",
+  "devDependencies": {
+    "jest": "^22.4.2",
+    "standard": "^11.0.0"
+  },
+  "jest": {
+    "collectCoverage": true
+  },
+  "standard": {
+    "globals": [
+      "test",
+      "expect"
+    ]
+  }
+}
