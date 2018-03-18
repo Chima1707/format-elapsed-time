@@ -1,4 +1,9 @@
 
+/**
+    * handles tick events, increment timers if timer has started or ignore if timer is off.
+    * @param {Number} elapsedMilliseconds - elapsed time in milliseconds
+    * @returns {String} = formatted string representing elapsed time.
+**/
 module.exports = function formatElapsedTime (elapsedMilliseconds) {
   if (typeof elapsedMilliseconds !== 'number') {
     return '00:00:00'
