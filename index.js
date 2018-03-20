@@ -1,6 +1,8 @@
 
 /**
-    * handles tick events, increment timers if timer has started or ignore if timer is off.
+    * formats elapsed time in milliseconds to 00:00:00.00 format.
+    * should return 00:00:00 for invalid input,
+    * should return 00:00.00 format if elapsed time is less than 1 hour
     * @param {Number} elapsedMilliseconds - elapsed time in milliseconds
     * @returns {String} = formatted string representing elapsed time.
 **/
